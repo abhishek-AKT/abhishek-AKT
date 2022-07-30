@@ -1,0 +1,41 @@
+/* ----------------- HOME PAGE ----------------- */
+
+@media (max-width: 900px){
+    .left-side-bar{
+        display: none;
+    }
+    .right-side-bar{
+        display: none;
+    }
+    nav{
+        flex-wrap: wrap;
+    }
+    .search-box{
+        display: none;
+    }
+    .logo{
+        width: 52px;
+        margin-right: 0px;
+        margin-left: -15px;
+    }
+    .nav-left ul li img{
+        width: 12px;
+        margin: 0px 3px;
+    }
+    .nav-user-icon img {
+        width: 24px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .online::after {
+        content: '';
+        width: 4px;
+        height: 4px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        background: #41db51;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
